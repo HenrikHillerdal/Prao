@@ -1,0 +1,198 @@
+<html>
+    <head>
+        <title>Friskolan Asken</title>
+        <style>
+            
+            .header {
+                background: #4CAF50;
+                border-radius: 10px;
+            }
+
+            body {
+                background-color: white;
+                font-family: Arial;
+                font-size: 16px; /* Font size */
+                color: #333; /* Text color */
+                overflow-x:hidden;
+            }
+
+            .ABild {
+                position: relative;
+                left: 540px;
+                top: 25px;
+                
+            }
+
+            a.Button{
+                position: relative;
+                display: inline-block; /* Inline-block keeps the clickable area limited to the button */
+                text-decoration: none;
+                padding: 30px 40px;
+                color: white;
+                font-weight: bold;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+
+            a.Button2 {
+                position: relative;
+                display: inline-block; /* Inline-block keeps the clickable area limited to the button */
+                text-decoration: none;
+                padding: 30px 40px;
+                color: white;
+                font-weight: bold;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+
+            a.Button {
+                left: 100px;
+                bottom: 50px;
+            }
+
+            a.Button2 {
+                left: 650px;
+                bottom: 50px;
+            }
+
+            .bottom {
+            padding: 50px;
+            background: #4ca410;
+            border-radius: 10px;
+            position: relative;
+            top: 602px;
+        }
+
+        .bottomtext {
+            position: relative;
+            color: white;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .bottomtext2 {
+            position: relative;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            float: right;
+            margin-left: 20px; /* Adds spacing between the links */
+            display: inline-block;
+        }
+        
+        .bottomtext3{
+            position: relative;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left:300px;
+            display:inline-block;
+            top: -130px;
+        }
+        .bottomtext4 {
+            position: relative;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left:-205px;
+            display:inline-block;
+            top: -100px;
+        }
+        .bottomtext5 {
+            position: relative;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 150px;
+            display:inline-block;
+            top: -100px;
+        }
+
+        .bottomtext6 {
+            position: relative;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: -341px;
+            display:inline-block;
+            top: -130px;
+        }
+
+        .text1{
+            font-size: 18px;
+            color: black;
+            position: relative;
+            left: 600px;
+
+        }
+
+        .välkommen{
+            font-size: 30px;
+            color: black;
+            position: relative;
+            left: 1100px;
+        }
+
+        .text3{
+            font-size: 25;
+            color: black;
+            position: relative;
+            left:1000px;
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
+
+        .text2{
+            font-size: 19px;
+            color:black;
+            position: relative;
+            font-weight: bold;
+            left:1075px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            
+        }
+        </style>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="ABild">
+                <img class="ABild" src="{{ url_for('static', filename='favicon.webp') }}" alt="Friskolan asken">
+            </div>
+                <a class="Button" href="/">Start</a>
+                <a class="Button" href="about">Om Skolan</a>
+                <a class="Button" href="fritidshem">Fritidshem</a>
+                <a class="Button" href="#">Läsårstider</a>
+                <a class="Button2" href="https://asken.skola24.se/" target="_blank">Sjukanmälan</a>
+                <a class="Button2" href="https://asken.skola24.se/" target="_blank">Ledighetsansökan</a>
+                <a class="Button2" href="https://www3.adelanet.se/asken/ansokan/index.aspx?kat=grundskola" target="_blank">Kö-anmälan</a>
+                <a class="Button2" href="kontaktaoss">Kontakta Oss</a>
+        </div>
+        
+        
+
+        <p class="välkommen">Skolsköterska</p>
+        <a class="text2" href="mailto:asa.fallgren@friskolanasken.se">Anna Johansson</a>
+        <p class="text2">0152 128 95</p>
+        <p class="text2">Måndagar 08:00-17:00</p>
+        <p class="text2">Tisdagar 08:00-14:30</p>
+        <p class="text2">Torsdagar 08:00-16:30</p>
+        <p class="text2">Fredagar 08:00-14:00</p>
+
+
+
+        <div class="bottom">
+            <p class="bottomtext">Friskolan Asken</p>
+            <p class="bottomtext">Westmans väg 6</p>
+            <p class="bottomtext">645 51 Strängnäs</p>
+            <p class="bottomtext">Skolexpedition: 0152 - 128 33</p>
+            <a class="bottomtext2" href="mailto:info@friskolanasken.se" target="_self">info@friskolanasken.se</a>
+            <a class="bottomtext2" href="https://goo.gl/maps/eTYp5gyUj73czX7t5" target="_blank">Hitta till skolan</a>
+            <a class="bottomtext3" href="#"> Skolsköterska 0152 128 95 </a>
+            <a class="bottomtext4" href="kurator"> Kurator 0152 128 95</a>
+            <a class="bottomtext5" href="fritidshem"> Fritidshem 073-421 00 13 eller 073-421 00 14</a>
+            <a class="bottomtext6" href="syv"> SYV 0152 128 95</a>
+        </div>
+    </body>
+</html>

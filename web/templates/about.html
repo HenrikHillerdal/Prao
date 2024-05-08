@@ -1,0 +1,200 @@
+<html>
+    <head>
+        <title>Friskolan Asken</title>
+        <style>
+            
+            .header {
+                background: #4CAF50;
+                border-radius: 10px;
+            }
+
+            body {
+                background-color: white;
+                font-family: Arial; /* Font family */
+                font-size: 16px; /* Font size */
+                color: #333; /* Text color */
+                overflow-x: hidden;
+            }
+
+            .ABild {
+                position: relative;
+                left: 540px;
+                top: 25px;
+                
+            }
+
+        a.Button{
+            position: relative;
+            display: inline-block; /* Inline-block keeps the clickable area limited to the button */
+            text-decoration: none;
+            padding: 30px 40px;
+            color: white;
+            font-weight: bold;
+            margin-left: 20px;
+            margin-right: 20px;
+            }
+
+            a.Button2 {
+                position: relative;
+                display: inline-block; /* Inline-block keeps the clickable area limited to the button */
+                text-decoration: none;
+                padding: 30px 40px;
+                color: white;
+                font-weight: bold;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+
+            a.Button {
+                left: 100px;
+                bottom: 50px;
+            }
+
+            a.Button2 {
+                left: 650px;
+                bottom: 50px;
+            }
+
+
+            .Intro {
+                position: relative;
+                font-size: 70px;
+                color: black;
+                top: 0px;
+                left: 1000px;
+            }
+
+
+            .Fakta {
+                font-size: 18px;
+                color: black;
+                text-align: center;
+                letter-spacing: 1px;
+                position: relative;
+                top: 0px;
+            }
+
+            .Pintro {
+                font-size: 30px;
+                color:black;
+                text-align: center;
+                position: relative;
+            }
+
+            .Pfakta {
+                font-size:18px;
+                color: black;
+                text-align: center;
+                position: relative;
+                
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+            .bottom {
+            padding: 50px;
+            background: #4ca410;
+            border-radius: 10px;
+            position: relative;
+            top: 150px;
+        }
+
+        .bottomtext {
+            position: relative;
+            color: white;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .bottomtext2 {
+            position: relative;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            float: right;
+            margin-left: 20px; /* Adds spacing between the links */
+            display: inline-block;
+        }
+        
+        .bottomtext3{
+            position: relative;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left:300px;
+            display:inline-block;
+            top: -130px;
+        }
+        .bottomtext4 {
+            position: relative;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left:-205px;
+            display:inline-block;
+            top: -100px;
+        }
+        .bottomtext5 {
+            position: relative;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 150px;
+            display:inline-block;
+            top: -100px;
+        }
+
+        .bottomtext6 {
+            position: relative;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: -341px;
+            display:inline-block;
+            top: -130px;
+        }
+        </style>
+        <link rel="icon" type="image/webp" href="/images/favicon.webp">
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="ABild">
+                <img class="ABild" src="{{ url_for('static', filename='favicon.webp') }}" alt="Friskolan asken">
+            </div>
+                <a class="Button" href="/">Start</a>
+                <a class="Button" href="#">Om Skolan</a>
+                <a class="Button" href="fritidshem">Fritidshem</a>
+                <a class="Button" href="lst">Läsårstider</a>
+                <a class="Button2" href="https://asken.skola24.se/">Sjukanmälan</a>
+                <a class="Button2" href="https://asken.skola24.se/">Ledighetsansökan</a>
+                <a class="Button2" href="https://www3.adelanet.se/asken/ansokan/index.aspx?kat=grundskola" target="_blank">Kö-anmälan</a>
+                <a class="Button2" href="kontaktaoss">Kontakta Oss</a>
+        </div>
+
+        <p class="Intro"> Om Asken </p>
+        <p class="Fakta">Vår skola är belägen i det natursköna Sundby park; 100 m från Mälarens strand. Vi skapar en positiv, varm och harmonisk miljö där alla elever kan arbeta och koncentrera sig utan stress.</p>
+        <p class="Fakta">Med portfoliometoden i ryggen och engagerade lärare låter vi varje elev utvecklas på sitt sätt och så långt som det är möjligt.</p>
+        <p class="Fakta">Historia: Skolan startade år 2000.</p>
+        <p class="Pintro">Vad är Portfolio?</p>
+        <p class="Pfakta">Portfolio är ett utvecklingsporträtt av en elevs pågående satsningar/ansträngningar, utveckling och prestationer under en tidsperiod.</p>
+        <p class="Pfakta">De är systematiska, målmedvetna och meningsfulla samlingar av en elevs arbete i olika kurser/ämnen.</p>
+        <p class="Pfakta">Med ett elevcentrerat synsätt fokuseras elevernas tänkande och reflekterande på hur de lär sig, vad de lär sig och hur de ser på sig själva och känner sig som lärande individer. Genom att betona processen mer än en färdig produkt stärks eleven att mer aktivt delta i sitt eget lärande och att utvärdera/bedöma sina starka som svaga sidor.</p>
+        <p class="Pfakta">En gång per termin träffas elev-vårdnadshavare-portfoliohandledare i ett portfoliosamtal. Det är eleven som håller i stor del av samtalet och med hjälp av reflekterande frågor, berättar om sin utveckling. Det är ett alltigenom positivt samtal som genomgående syftar framåt. På samtalet utvärderas tidigare mål och nya formuleras.</p>
+        <p class="Pfakta">Portfolioarbetet är en progression och avslutas med en portfolioexamen i årskurs 9.
+        <p class="Pfakta">Portfolio är helt enkelt en metodik att jobba efter. Självklart följer Asken gällande läroplan (Lgr22).</p>
+
+        <div class="bottom">
+            <p class="bottomtext">Friskolan Asken</p>
+            <p class="bottomtext">Westmans väg 6</p>
+            <p class="bottomtext">645 51 Strängnäs</p>
+            <p class="bottomtext">Skolexpedition: 0152 - 128 33</p>
+            <a class="bottomtext2" href="mailto:info@friskolanasken.se" target="_self">info@friskolanasken.se</a>
+            <a class="bottomtext2" href="https://goo.gl/maps/eTYp5gyUj73czX7t5" target="_blank">Hitta till skolan</a>
+            <a class="bottomtext3" href="skolskoterska"> Skolsköterska 0152 128 95 </a>
+            <a class="bottomtext4" href="kurator"> Kurator 0152 128 95</a>
+            <a class="bottomtext5" href="fritidshem"> Fritidshem 073-421 00 13 eller 073-421 00 14</a>
+            <a class="bottomtext6" href="syv"> SYV 0152 128 95</a>
+            
+        </div>
+    </body>
+</html>

@@ -1,0 +1,267 @@
+<html>
+    <head>
+        <title>Friskolan Asken</title>
+        <style>
+            
+            .header {
+                background: #4CAF50;
+                border-radius: 10px;
+            }
+
+            body {
+                background-color: white;
+                font-family: Arial; /* Font family */
+                font-size: 16px; /* Font size */
+                color: #333; /* Text color */
+                overflow-x: hidden;
+            }
+
+            .ABild {
+                position: relative;
+                left: 540px;
+                top: 25px;
+                
+            }
+
+            a.Button{
+                position: relative;
+                display: inline-block; /* Inline-block keeps the clickable area limited to the button */
+                text-decoration: none;
+                padding: 30px 40px;
+                color: white;
+                font-weight: bold;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+
+            a.Button2 {
+                position: relative;
+                display: inline-block; /* Inline-block keeps the clickable area limited to the button */
+                text-decoration: none;
+                padding: 30px 40px;
+                color: white;
+                font-weight: bold;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+
+            a.Button {
+                left: 100px;
+                bottom: 50px;
+            }
+
+            a.Button2 {
+                left: 650px;
+                bottom: 50px;
+            }
+
+            .bottom {
+            padding: 50px;
+            background: #4ca410;
+            border-radius: 10px;
+            position: relative;
+            top: 30px;
+        }
+
+            .bottomtext {
+            position: relative;
+            color: white;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .bottomtext2 {
+            position: relative;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            float: right;
+            margin-left: 20px; /* Adds spacing between the links */
+            display: inline-block;
+        }
+        
+        .bottomtext3{
+            position: relative;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left:300px;
+            display:inline-block;
+            top: -130px;
+        }
+        .bottomtext4 {
+            position: relative;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left:-205px;
+            display:inline-block;
+            top: -100px;
+        }
+        .bottomtext5 {
+            position: relative;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 150px;
+            display:inline-block;
+            top: -100px;
+        }
+
+        .bottomtext6 {
+            position: relative;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: -341px;
+            display:inline-block;
+            top: -130px;
+        }
+
+        .text1{
+            position: relative;
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+            left: 1100px;
+
+            
+        }
+
+        .text2{
+            position: relative;
+            color: black;
+            font-size: 18px;
+            left: 1100px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        </style>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="ABild">
+                <img class="ABild" src="{{ url_for('static', filename='favicon.webp') }}" alt="Friskolan asken">
+            </div>
+                <a class="Button" href="/">Start</a>
+                <a class="Button" href="about">Om Skolan</a>
+                
+                <a class="Button" href="fritidshem">Fritidshem</a>
+                <a class="Button" href="lst">Läsårstider</a>
+                
+
+                <a class="Button2" href="https://asken.skola24.se/" target="_blank">Sjukanmälan</a>
+                <a class="Button2" href="https://asken.skola24.se/" target="_blank">Ledighetsansökan</a>
+                <a class="Button2" href="https://www3.adelanet.se/asken/ansokan/index.aspx?kat=grundskola" target="_blank">Kö-anmälan</a>
+                <a class="Button2" href="#">Kontakta Oss</a>
+        </div>
+
+        <p class="text1">Expedition</p>
+        <a class="text2" href="mailto:info@friskolanasken.se">Annelie Werner</a>
+        <p class="text2">Skoladministratör 0152 128 33</p>
+        <a class="text2" href="mailto:tove.gullstrand@friskolanasken.se">Tove Gullstrand</a>
+        <p class="text2">Skolvärdinna 0152-128 33</p>
+        <p class="text1">Skolledning</p>
+        <a class="text2" href="mailto:lotta.edman@friskolanasken.se">Lotta Edman</a>
+        <p class="text2">Rektor Sv. 0152-128 03</p>
+        <a class="text2" href="mailto:asa.fallgren@friskolanasken.se">Åsa Fallgren</a>
+        <p class="text2">Skolchef Ma. 0152-128 03</p>
+        <a class="text2" href="mailto:joakim.henriksson@friskolanasken.se">Joakim Henriksson</a>
+        <p class="text2">Bitr.rektor Ma. 0152-128 33</p>
+        <p class="text1">Klasslärare</p>
+        <a class="text2" href="mailto:sofie.engstrand@friskolanasken.se">Sofie Engstrand</a>
+        <p class="text2">Mentor 4A 0152-128 97</p>
+        <a class="text2" href="mailto:pia.hammar@friskolanasken.se">Pia Hammar</a>
+        <p class="text2">Mentor för 4B 0152-128 97</p>
+        <a class="text2" href="mailto:lisa.ogren@friskolanasken.se">Lisa Ögren</a>
+        <p class="text2">Mentor 5A 0152-128 97</p>
+        <a class="text2" href="mailto:fredrik.gohle@friskolanasken.se">Fredrick Göhle</a>
+        <p class="text2">Mentor i 5B 0152-128 97</p>
+        <a class="text2" href="mailto:maria.sjodin@friskolanasken.se">Maria Sjöding</a>
+        <p class="text2">speciallärare åk 4 - 9</p>
+        <p class="text1">Fritidshem</p>
+        <p class="text2">073-421 00 13/073-421 00 14</p>
+        <a class="text2" href="mailto:cecilia.lord@friskolanasken.se">Cecilia Lord Niburg</a>
+        <a class="text2" href="mailto:roger.andersson@friskolanasken.se">Roger Andersson</a>
+        <a class="text2" href="mailto:louise.hawelka@friskolanasken.se">Louise Hawelka</a>
+        <p class="text1">Kurator</p>
+        <a class="text2" href="mailto:caroline.bjorklund@friskolanasken.se">Caroline Björklund</a>
+        <p class="text2">0152-128-06</p>
+        <p class="text1">Skolsköterska</p>
+        <a class="text2" href="mailto:anna.johansson@friskolanasken.se">Anna Johansson</a>
+        <p class="text2">0762-22 98 43</p>
+        <p class="text1">Syv</p>
+        <a class="text2" href="mailto:nicklas.hellmark@europaskolan.se">Nicklas Hellmark</a>
+        <p class="text2">076 7675798</p>
+        <p class="text1">Skolbespisning</p>
+        <a class="text2" href="mailto:maria.andersson@friskolanasken.se">Maria Andersson</a>
+        <p class="text2">076 7675798</p>
+        <p class="text1">Vaktmästeri</p>
+        <a class="text2" href="mailto:pelle.nilsson@asken.se">Pelle Nilsson</a>
+        <p class="text2">0152 12856</p>
+        <a class="text2" href="mailto:andreas.callros@friskolanasken.se">0152 12856</a>
+        <p class="text1">Ämneslärare</p>
+        <a class="text2" href="mailto:louise.andersson@friskolanasken.se">Louise Andersson</a>
+        <p class="text2">Textilslöjd 0152 12878</p>
+        <a class="text2" href="mailto:asa.elvelind@friskolanasken.se">Åsa Elvelind</a>
+        <p class="text2">No/Ma 0152 12856</p>
+        <a class="text2" href="mailto:lotta.eriksson@friskolanasken.se">Lotta Eriksson</a>
+        <p class="text2">Ma/No 0152 12878</p>
+        <a class="text2" href="mailto:katarina.ramstrom@friskolanasken.se">Katarina Rämström</a>
+        <p class="text2">Trä-och metallslöjd 0152 12856</p>
+        <a class="text2" href="mailto:gunnel.lord@friskolanasken.se">Gunnel Lord</a>
+        <p class="text2">En/Sv 0152 12856</p>
+        <a class="text2" href="mailto:ola.kallstig@friskolanasken.se">Ola Kallstig</a>
+        <p class="text2">Musik 0152 12878</p>
+        <a class="text2" href="mailto:karin.chaikait@friskolanasken.se">Karin Chaikait</a>
+        <p class="text2">Speciallärare 0152 -128 78</p>
+        <a class="text2" href="mailto:astrid.lindahl@friskolanasken.se">Astrid Lindahl</a>
+        <p class="text2">Sp/sv/SO 0152-12856</p>
+        <a class="text2" href="mailto:lisa.ibrahim@friskolanasken.se">Lisa Ibrahim</a>
+        <p class="text2">Ty, No 0152 12878</p>
+        <a class="text2" href="mailto:malou.bernstrom@friskolanasken.se">Malou Bernström</a>
+        <p class="text2">Idrott 0152 12878</p>
+        <a class="text2" href="mailto:mioara.flesaru@friskolanasken.se">Mioara Flesaru</a>
+        <p class="text2">En/Fr 0152 12878</p>
+        <a class="text2" href="mailto:sarah.poser@friskolanasken.se">Sarah Poser</a>
+        <p class="text2">Hem och konsumentkunskap 0152 12878</p>
+        <a class="text2" href="mailto:david.hagstedt@friskolanasken.se">David Hagstedt</a>
+        <p class="text2">Ma/Fy/Tk 0152 12878</p>
+        <a class="text2" href="mailto:jaser.abbas@friskolanasken.se">Jaser Abbas</a>
+        <p class="text2">So 0152 12878</p>
+        <a class="text2" href="mailto:jennifer.ryanski@friskolanasken.se">Jennifer Ryanski</a>
+        <p class="text2">Idrott/Elevassistent 0152 12856</p>
+        <a class="text2" href="mailto:inese.wallenberg@friskolanasken.se">Inese Wallenberg</a>
+        <p class="text2">Bl/NO 0152 12856</p>
+        <a class="text2" href="mailto:johan.osteras@friskolanasken.se">Johan Österås</a>
+        <p class="text2">Sv/En 0152 12856</p>
+        <a class="text2" href="mailto:sofia.holmer@friskolanasken.se">Sofia Holmer</a>
+        <p class="text2">SO/Sv 0152 128 56</p>
+        <a class="text2" href="mailto:linnea.eriksson@friskolanasken.se">Linnea Eriksson</a>
+        <p class="text2">Ma/No 0152 12856</p>
+        <a class="text2" href="mailto:robin.eriksson@friskolanasken.se">Robin Eriksson</a>
+        <p class="text1">Knoppen</p>
+        <a class="text2" href="mailto:karin.chaikiat@friskolanasken.se">Karin Chaikiat</a>
+        <a class="text2" href="mailto:therese.svedberg@friskolanasken.se">Therese Nyström</a>
+        <p class="text2">0152-128 78</p>
+        <a class="text2" href="mailto:richard.nyman@friskolanasken.se">Richard Nyman</a>
+        <p class="text2">0152-128 78</p>
+        <p class="text1">Lövet</p>
+        <a class="text2" href="mailto:maia.nikolova@friskolanasken.se">Maia Nikolova Abbas</a>
+
+
+        <div class="bottom">
+            <p class="bottomtext">Friskolan Asken</p>
+            <p class="bottomtext">Westmans väg 6</p>
+            <p class="bottomtext">645 51 Strängnäs</p>
+            <p class="bottomtext">Skolexpedition: 0152 - 128 33</p>
+            <a class="bottomtext2" href="mailto:info@friskolanasken.se" target="_self">info@friskolanasken.se</a>
+            <a class="bottomtext2" href="https://goo.gl/maps/eTYp5gyUj73czX7t5" target="_blank">Hitta till skolan</a>
+            <a class="bottomtext3" href="skolskoterska"> Skolsköterska 0152 128 95 </a>
+            <a class="bottomtext4" href="kurator"> Kurator 0152 128 95</a>
+            <a class="bottomtext5" href="fritidshem"> Fritidshem 073-421 00 13 eller 073-421 00 14</a>
+            <a class="bottomtext6" href="https://www.friskolanasken.se/syv"> SYV 0152 128 95</a>
+        </div>
+    </body>
+</html>

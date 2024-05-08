@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Friskolan Asken</title>
+    <link rel="icon" type="image/webp" href="/images/favicon.webp"> <!-- Primary .webp favicon -->
+    <link rel="icon" type="image/png" href="/images/favicon.png"> <!-- Fallback .png favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico"> <!-- Fallback .ico favicon -->
+    <style>
+
+        .header {
+            background: #4CAF50;
+            border-radius: 10px;
+        }
+        body {
+            background-color: white;
+            font-family: Arial; /* Font family */
+            font-size: 16px; /* Font size */
+            color: #333; /* Text color */
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+
+        
+        .Intro {
+            position: relative;
+            font-size: 70px;
+            color: black;
+            top: 80px;
+        }
+
+        .ABild {
+                position: relative;
+                left: 540px;
+                top: 25px;
+                
+            }
+
+        a.Button{
+            position: relative;
+            display: inline-block; /* Inline-block keeps the clickable area limited to the button */
+            text-decoration: none;
+            padding: 30px 40px;
+            color: #ffffff;
+            font-weight: bold;
+            margin-left: 20px;
+            margin-right: 20px;
+            }
+
+            a.Button2 {
+                position: relative;
+                display: inline-block; /* Inline-block keeps the clickable area limited to the button */
+                text-decoration: none;
+                padding: 30px 40px;
+                color: #ffffff;
+                font-weight: bold;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+
+            a.Button {
+                left: 100px;
+                bottom: 50px;
+            }
+
+            a.Button2 {
+                left: 650px;
+                bottom: 50px;
+            }
+
+        .Fakta {
+            font-size: 18px;
+            color: black;
+            text-align: center;
+            letter-spacing: 1px;
+            position: relative;
+            top: 40px;
+        }
+
+        .välkommen {
+            font-size: 30px;
+            color: black;
+            position: relative;
+            top: 40px;
+        }
+
+
+
+        .bottom {
+            padding: 50px;
+            background: #4ca410;
+            border-radius: 10px;
+            position: relative;
+            top: 473px;
+        }
+
+        .bottomtext {
+            position: relative;
+            color: white;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .bottomtext2 {
+            position: relative;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            float: right;
+            margin-left: 20px; /* Adds spacing between the links */
+            display: inline-block;
+        }
+        
+        .bottomtext3{
+            position: relative;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left:300px;
+            display:inline-block;
+            top: -130px;
+        }
+        .bottomtext4 {
+            position: relative;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left:-205px;
+            display:inline-block;
+            top: -100px;
+        }
+        .bottomtext5 {
+            position: relative;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 150px;
+            display:inline-block;
+            top: -100px;
+        }
+
+        .bottomtext6 {
+            position: relative;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: -341px;
+            display:inline-block;
+            top: -130px;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div class="header">
+        <div class="ABild">
+            <img class="ABild" src="{{ url_for('static', filename='favicon.webp') }}" alt="Friskolan asken">
+        </div>
+            <a class="Button" href="/">Start</a>
+            <a class="Button" href="about">Om Skolan</a>
+            <a class="Button" href="fritidshem">Fritidshem</a>
+            <a class="Button" href="lst">Läsårstider</a>
+            <a class="Button2" href="https://asken.skola24.se/" target="_blank">Sjukanmälan</a>
+            <a class="Button2" href="https://asken.skola24.se/" target="_blank">Ledighetsansökan</a>
+            <a class="Button2" href="https://www3.adelanet.se/asken/ansokan/index.aspx?kat=grundskola" target="_blank">Kö-anmälan</a>
+            <a class="Button2" href="kontaktaoss">Kontakta Oss</a>
+    </div>
+
+    <div class="Fakta">
+        <p class="Intro">FRISKOLAN ASKEN</p>
+        <p class="välkommen">Välkommen till Friskolan Asken!</p>
+        <p class="Fakta">Vår skola är belägen i det natursköna Sundby park; 100 m från Mälarens strand. Vi skapar en positiv, varm och harmonisk miljö där alla elever kan arbeta och koncentrera sig utan stress.</p>
+        <p class="Fakta">Med portfoliometoden i ryggen och engagerade lärare låter vi varje elev utvecklas på sitt sätt och så långt som det är möjligt</p>
+    </div>
+
+    <div class="bottom">
+        <p class="bottomtext">Friskolan Asken</p>
+        <p class="bottomtext">Westmans väg 6</p>
+        <p class="bottomtext">645 51 Strängnäs</p>
+        <p class="bottomtext">Skolexpedition: 0152 - 128 33</p>
+        <a class="bottomtext2" href="mailto:info@friskolanasken.se" target="_self">info@friskolanasken.se</a>
+        <a class="bottomtext2" href="https://goo.gl/maps/eTYp5gyUj73czX7t5" target="_blank">Hitta till skolan</a>
+        <a class="bottomtext3" href="skolskoterska"> Skolsköterska 0152 128 95 </a>
+        <a class="bottomtext4" href="kurator"> Kurator 0152 128 95</a>
+        <a class="bottomtext5" href="fritidshem"> Fritidshem 073-421 00 13 eller 073-421 00 14</a>
+        <a class="bottomtext6" href="syv"> SYV 0152 128 95</a>
+        
+    </div>
+</body>
+</html>
